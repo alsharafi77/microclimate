@@ -1,0 +1,172 @@
+Pre-building the Liberty app image
+Sending build context to Docker daemon   5.12kB
+Step 1/11 : FROM websphere-liberty:webProfile7
+webProfile7: Pulling from library/websphere-liberty
+b234f539f7a1: Pulling fs layer
+55172d420b43: Pulling fs layer
+5ba5bbeb6b91: Pulling fs layer
+43ae2841ad7a: Pulling fs layer
+f6c9c6de4190: Pulling fs layer
+8ba431a95425: Pulling fs layer
+9e7ee419d20f: Pulling fs layer
+217c7503bc61: Pulling fs layer
+eb261025e9c8: Pulling fs layer
+f16a7efc2d2b: Pulling fs layer
+710d18fcc8b7: Pulling fs layer
+37516741d235: Pulling fs layer
+587258b4877f: Pulling fs layer
+40815de66283: Pulling fs layer
+ca012a7cf06b: Pulling fs layer
+ca012a7cf06b: Download complete
+9e7ee419d20f: Download complete
+55172d420b43: Download complete
+5ba5bbeb6b91: Download complete
+43ae2841ad7a: Download complete
+f6c9c6de4190: Download complete
+8ba431a95425: Download complete
+710d18fcc8b7: Download complete
+217c7503bc61: Download complete
+eb261025e9c8: Download complete
+f16a7efc2d2b: Download complete
+587258b4877f: Download complete
+37516741d235: Download complete
+40815de66283: Download complete
+b234f539f7a1: Pull complete
+55172d420b43: Pull complete
+5ba5bbeb6b91: Pull complete
+43ae2841ad7a: Pull complete
+f6c9c6de4190: Pull complete
+8ba431a95425: Pull complete
+9e7ee419d20f: Pull complete
+217c7503bc61: Pull complete
+eb261025e9c8: Pull complete
+f16a7efc2d2b: Pull complete
+710d18fcc8b7: Pull complete
+37516741d235: Pull complete
+587258b4877f: Pull complete
+40815de66283: Pull complete
+ca012a7cf06b: Pull complete
+Digest: sha256:14ac10586635d97a5325e40abf71d380d1a7288e00f170fa36c9b79b0fca8b55
+Status: Image is up to date for websphere-liberty:webProfile7
+ ---> 3c76fe133fbe
+Step 2/11 : MAINTAINER IBM Java engineering at IBM Cloud
+ ---> Running in 1b33b124ab55
+Removing intermediate container 1b33b124ab55
+ ---> 338c60da2b21
+Step 3/11 : RUN mkdir -m 777 -p /config/resources
+ ---> Running in 485b9911410f
+Removing intermediate container 485b9911410f
+ ---> 8f7c3c6f1212
+Step 4/11 : ARG LICENSE_JAR_URL
+ ---> Running in 6bf429863593
+Removing intermediate container 6bf429863593
+ ---> 1d2edf319d3c
+Step 5/11 : RUN   if [ $LICENSE_JAR_URL ]; then     wget $LICENSE_JAR_URL -O /tmp/license.jar     && java -jar /tmp/license.jar -acceptLicense /opt/ibm     && rm /tmp/license.jar;   fi
+ ---> Running in 6a5c8e669a7a
+Removing intermediate container 6a5c8e669a7a
+ ---> 799b45b7cef6
+Step 6/11 : ENV JAVA_VERSION 1.8.0_sr5fp6
+ ---> Running in bd61e35c7852
+Removing intermediate container bd61e35c7852
+ ---> 797a6eb3a960
+Step 7/11 : RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        amd64|x86_64)          ESUM='b5e2824313e62d647c7c7c7c8a6eb8704e445e915da460d379aedd30e6835030';          YML_FILE='sdk/linux/x86_64/index.yml';          ;;        i386)          ESUM='5e2fd0cafeab9c72e8eb038eb22cf911a18607298a47cd3d4684179610ec364c';          YML_FILE='sdk/linux/i386/index.yml';          ;;        ppc64el|ppc64le)          ESUM='c2dc7e1cf3db66f7ea0497b48ecb79048a553eaa82d5595a43c9bd7542610b0b';          YML_FILE='sdk/linux/ppc64le/index.yml';          ;;        s390)          ESUM='5f3f12fefe36502954d69fb1178c2a8bcd88624bc77c4c7bafd9193adcc79398';          YML_FILE='sdk/linux/s390/index.yml';          ;;        s390x)          ESUM='116fbee3c36425056d6310dd6ef54ce3debdd7150fa57e28caf39f04108b3edc';          YML_FILE='sdk/linux/s390x/index.yml';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     BASE_URL="https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/meta/";     wget -q -U UA_IBM_JAVA_Docker -O /tmp/index.yml ${BASE_URL}/${YML_FILE};     JAVA_URL=$(cat /tmp/index.yml | sed -n '/'${JAVA_VERSION}'/{n;p}' | sed -n 's/\s*uri:\s//p' | tr -d '\r');     wget -q -U UA_IBM_JAVA_Docker -O /tmp/ibm-java.bin ${JAVA_URL};     echo "${ESUM}  /tmp/ibm-java.bin" | sha256sum -c -;     echo "INSTALLER_UI=silent" > /tmp/response.properties;     echo "USER_INSTALL_DIR=/root/java" >> /tmp/response.properties;     echo "LICENSE_ACCEPTED=TRUE" >> /tmp/response.properties;     mkdir -p /root/java;     chmod +x /tmp/ibm-java.bin;     /tmp/ibm-java.bin -i silent -f /tmp/response.properties;     rm -f /tmp/response.properties;     rm -f /tmp/index.yml;     rm -f /tmp/ibm-java.bin;     cd /root/java/jre/lib;     rm -rf icc;
+ ---> Running in 0fe6397bca1c
+[91m+ dpkg --print-architecture
+[0m[91m+ ARCH=amd64
++ ESUM=b5e2824313e62d647c7c7c7c8a6eb8704e445e915da460d379aedd30e6835030
++ YML_FILE=sdk/linux/x86_64/index.yml
++ BASE_URL=https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/meta/
++ wget -q -U UA_IBM_JAVA_Docker -O /tmp/index.yml https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/meta//sdk/linux/x86_64/index.yml
+[0m[91m+ cat /tmp/index.yml
+[0m[91m+ sed -n /1.8.0_sr5fp6/{n;p}
++ sed -n s/\s*uri:\s//p
+[0m[91m+ tr -d \r
+[0m[91m+ JAVA_URL=https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.5.6/linux/x86_64/ibm-java-sdk-8.0-5.6-x86_64-archive.bin
++ wget -q -U UA_IBM_JAVA_Docker -O /tmp/ibm-java.bin https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.5.6/linux/x86_64/ibm-java-sdk-8.0-5.6-x86_64-archive.bin
+[0m[91m+ echo b5e2824313e62d647c7c7c7c8a6eb8704e445e915da460d379aedd30e6835030  /tmp/ibm-java.bin
+[0m[91m+ sha256sum -c -
+[0m/tmp/ibm-java.bin: OK
+[91m+ echo INSTALLER_UI=silent
++ echo USER_INSTALL_DIR=/root/java
++ echo LICENSE_ACCEPTED=TRUE
+[0m[91m+ mkdir -p /root/java
+[0m[91m+ chmod +x /tmp/ibm-java.bin
+[0m[91m+ /tmp/ibm-java.bin -i silent -f /tmp/response.properties
+[0m[91m+ rm -f /tmp/response.properties
+[0m[91m+ rm -f /tmp/index.yml
+[0m[91m+ rm -f /tmp/ibm-java.bin
+[0m[91m+ cd /root/java/jre/lib
++ rm -rf icc
+[0mRemoving intermediate container 0fe6397bca1c
+ ---> bc3430e3d1a6
+Step 8/11 : RUN mkdir -p /opt/mvn;     MAVEN_VERSION=$(wget -qO- https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/maven-metadata.xml | sed -n 's/\s*<release>\(.*\)<.*>/\1/p');     wget -q -U UA_IBM_JAVA_Docker -O /opt/mvn/apache-maven-${MAVEN_VERSION}-bin.tar.gz https://search.maven.org/remotecontent?filepath=org/apache/maven/apache-maven/${MAVEN_VERSION}/apache-maven-${MAVEN_VERSION}-bin.tar.gz;     tar xf /opt/mvn/apache-maven-${MAVEN_VERSION}-bin.tar.gz -C /opt/mvn;     mv /opt/mvn/apache-maven-${MAVEN_VERSION} /opt/mvn/apache-maven;     rm -f /opt/mvn/apache-maven-${MAVEN_VERSION}-bin.tar.gz;
+ ---> Running in 1495fa808c50
+Removing intermediate container 1495fa808c50
+ ---> d134fc276843
+Step 9/11 : RUN mkdir -m 777 -p /config/resources
+ ---> Running in a9d4ad8e1272
+Removing intermediate container a9d4ad8e1272
+ ---> 3cd11fb8c244
+Step 10/11 : ENV JAVA_HOME=/root/java     PATH=/root/java/jre/bin:/opt/mvn/apache-maven/bin:$PATH
+ ---> Running in a3a91a206b04
+Removing intermediate container a3a91a206b04
+ ---> d638a35829a0
+Step 11/11 : RUN echo unset LOG_DIR >> /root/.bashrc && 	echo unset WLP_OUTPUT_DIR >> /root/.bashrc
+ ---> Running in b9fadbad3fcf
+Removing intermediate container b9fadbad3fcf
+ ---> f82e205a5605
+Successfully built f82e205a5605
+Successfully tagged mc-liberty-jdk-cache:latest
+Successfully built the docker image
+The push refers to repository [mycluster.icp:8500/default/default/mc-liberty-jdk-cache]
+e0526b61ba35: Preparing
+3e03cb59cf31: Preparing
+54eb919b52cc: Preparing
+b7cd261d7e35: Preparing
+5385f51888d3: Preparing
+682983fbfbee: Preparing
+0357184f87a6: Preparing
+591de7e8e753: Preparing
+e84e38057a04: Preparing
+780fa68a1f40: Preparing
+a6f08c2dbfc7: Preparing
+2fbafd4675ba: Preparing
+6092f6b54e37: Preparing
+97644e177b43: Preparing
+2de391e51d73: Preparing
+d73dd9e65295: Preparing
+686245e78935: Preparing
+d7ff1dc646ba: Preparing
+644879075e24: Preparing
+682983fbfbee: Waiting
+6092f6b54e37: Waiting
+0357184f87a6: Waiting
+591de7e8e753: Waiting
+97644e177b43: Waiting
+e84e38057a04: Waiting
+2de391e51d73: Waiting
+780fa68a1f40: Waiting
+a6f08c2dbfc7: Waiting
+d73dd9e65295: Waiting
+2fbafd4675ba: Waiting
+686245e78935: Waiting
+e0526b61ba35: Pushed
+b7cd261d7e35: Pushed
+682983fbfbee: Pushed
+3e03cb59cf31: Pushed
+591de7e8e753: Pushed
+e84e38057a04: Pushed
+780fa68a1f40: Pushed
+2fbafd4675ba: Pushed
+5385f51888d3: Pushed
+a6f08c2dbfc7: Pushed
+97644e177b43: Pushed
+2de391e51d73: Pushed
+d73dd9e65295: Pushed
+686245e78935: Pushed
+d7ff1dc646ba: Pushed
+0357184f87a6: Pushed
+644879075e24: Pushed
+54eb919b52cc: Pushed
+6092f6b54e37: Pushed
+latest: digest: sha256:d1cfc4f6a150eb86c6f025a49ff3730ce6f7713e734243bac1a29e9b4d96d6a1 size: 4295

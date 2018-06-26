@@ -1,0 +1,289 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.4/maven-plugin-api-2.0.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.4/maven-artifact-2.0.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.5.0/maven-core-3.5.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.5.0/maven-settings-3.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.4/maven-plugin-api-2.0.4.jar (8.3 kB at 8.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.5.0/maven-settings-builder-3.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.5.0/maven-settings-3.5.0.jar (45 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.5.0/maven-repository-metadata-3.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.5.0/maven-repository-metadata-3.5.0.jar (27 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.5.0/maven-model-builder-3.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.4/maven-artifact-2.0.4.jar (80 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.jar (165 kB at 168 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.5.0/maven-settings-builder-3.5.0.jar (43 kB at 44 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar (53 kB at 53 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.5.0/maven-model-builder-3.5.0.jar (179 kB at 169 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.5.0/maven-core-3.5.0.jar (625 kB at 583 kB/s)
+[INFO] 
+[INFO] ---------------------------< projects:demo2 >---------------------------
+[INFO] Building demo2 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.pom (1.3 kB at 128 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.pom (1.1 kB at 121 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/runtimetools/javametrics-agent/maven-metadata.xml
+[INFO] Downloading from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-agent/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/runtimetools/javametrics-agent/maven-metadata.xml (499 B at 42 kB/s)
+[INFO] Downloaded from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-agent/maven-metadata.xml (498 B at 1.4 kB/s)
+[INFO] Downloading from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-agent/1.2.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-agent/1.2.1-SNAPSHOT/maven-metadata.xml (1.2 kB at 7.0 kB/s)
+[INFO] Downloading from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-dash/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/runtimetools/javametrics-dash/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/runtimetools/javametrics-dash/maven-metadata.xml (498 B at 42 kB/s)
+[INFO] Downloaded from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-dash/maven-metadata.xml (457 B at 2.7 kB/s)
+[INFO] Downloading from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-dash/1.2.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-dash/1.2.1-SNAPSHOT/maven-metadata.xml (1.2 kB at 7.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/runtimetools/javametrics-rest/maven-metadata.xml
+[INFO] Downloading from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-rest/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/runtimetools/javametrics-rest/maven-metadata.xml (374 B at 29 kB/s)
+[INFO] Downloaded from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-rest/maven-metadata.xml (296 B at 1.7 kB/s)
+[INFO] Downloading from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-rest/1.2.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from oss.sonatype.org-snapshot: http://oss.sonatype.org/content/repositories/snapshots/com/ibm/runtimetools/javametrics-rest/1.2.1-SNAPSHOT/maven-metadata.xml (1.2 kB at 7.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.jar (276 kB at 4.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.jar (3.2 MB at 7.4 MB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ demo2 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom (5.8 kB at 341 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom (889 B at 81 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom (890 B at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom (2.8 kB at 259 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar (35 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar (21 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar (57 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar (29 kB at 782 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar (24 kB at 816 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.jar (38 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar (14 kB at 378 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar (37 kB at 997 kB/s)
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ demo2 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom (1.5 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.9/maven-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.9/maven-2.0.9.pom (19 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/8/maven-parent-8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/8/maven-parent-8.pom (24 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom (1.6 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom (7.8 kB at 649 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom (2.1 kB at 206 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom (3.1 kB at 314 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom (2.0 kB at 179 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom (2.0 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom (1.9 kB at 106 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom (1.7 kB at 218 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom (2.7 kB at 301 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom (2.7 kB at 270 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom (2.0 kB at 246 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom (2.1 kB at 208 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom (1.3 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom (3.4 kB at 379 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.pom (4.0 kB at 450 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom (4.7 kB at 527 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom (865 B at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom (3.6 kB at 190 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom (690 B at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom (769 B at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom (1.2 kB at 138 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar (21 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar (35 kB at 956 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar (49 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar (87 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar (14 kB at 255 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar (25 kB at 409 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar (122 kB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar (29 kB at 409 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar (211 kB at 2.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar (58 kB at 723 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar (10 kB at 127 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar (46 kB at 524 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar (37 kB at 378 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar (45 kB at 381 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar (134 kB at 956 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.jar (358 kB at 2.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.jar (121 kB at 759 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.jar (640 kB at 3.1 MB/s)
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /root/app/mc-target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ demo2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /shared-workspace/demo2/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ demo2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /root/app/mc-target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ demo2 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar (30 kB at 1.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar (13 kB at 521 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar (26 kB at 987 kB/s)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- liberty-maven-plugin:2.1.1:install-server (create-server) @ demo2 ---
+[INFO] CWWKM2102I: Using pre-installed assembly : /opt/ibm/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /root/app/mc-target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2107I: Installation type is pre-existing; skipping installation.
+[INFO] 
+[INFO] --- liberty-maven-plugin:2.1.1:create-server (create-server) @ demo2 ---
+[INFO] CWWKM2102I: Using pre-installed assembly : /opt/ibm/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /root/app/mc-target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2107I: Installation type is pre-existing; skipping installation.
+[INFO] CWWKM2143I: Server defaultServer does not exist. Now creating...
+[INFO] CWWKM2001I: server.config.dir is /shared-workspace/demo2/mc-target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2001I: server.output.dir is /shared-workspace/demo2/mc-target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2001I: Invoke command is [/opt/ibm/wlp/bin/server, create, defaultServer].
+[INFO] JVMSHRC287E Persistent cache cannot be located on a networked file system. Either select "nonpersistent" or a different cacheDir.
+[INFO] JVMSHRC686I Failed to startup shared class cache. Continue without using it as -Xshareclasses:nonfatal is specified
+[INFO] Server defaultServer created.
+[INFO] CWWKM2129I: Server defaultServer has been created at /shared-workspace/demo2/mc-target/liberty/wlp/usr/servers/defaultServer.
+[INFO] Copying 1 file to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer
+[INFO] Copying 1 file to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer
+[INFO] Copying 1 file to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer
+[INFO] CWWKM2144I: Update server configuration file server.xml from /shared-workspace/demo2/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file jvm.options from /shared-workspace/demo2/src/main/liberty/config/jvm.options.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from inlined configuration.
+[INFO] CWWKM2144I: Update server configuration file server.env from /shared-workspace/demo2/src/main/liberty/config/server.env.
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ demo2 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [demo2] in [/root/app/mc-target/demo2-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/shared-workspace/demo2/src/main/webapp]
+[INFO] Webapp assembled in [173 msecs]
+[INFO] Building war: /root/app/mc-target/demo2-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:copy-dependencies (copy-javametrics-dash) @ demo2 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar (14 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar (52 kB at 2.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar (148 kB at 5.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar (74 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar (51 kB at 1.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar (30 kB at 813 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar (106 kB at 2.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar (43 kB at 994 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.jar (237 kB at 3.8 MB/s)
+[INFO] Copying javametrics-dash-1.2.1.war to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer/dropins/javametrics-dash.war
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:copy-dependencies (copy-javametrics-rest) @ demo2 ---
+[INFO] Copying javametrics-rest-1.2.1.war to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer/dropins/javametrics-rest.war
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:copy-dependencies (copy-javametrics-agent) @ demo2 ---
+[INFO] Copying javametrics-agent-1.2.1.jar to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer/resources/javametrics-agent.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:copy-dependencies (copy-javametrics-asm) @ demo2 ---
+[INFO] Copying asm-5.0.4.jar to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer/resources/asm/asm-5.0.4.jar
+[INFO] Copying asm-commons-5.0.4.jar to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer/resources/asm/asm-commons-5.0.4.jar
+[INFO] 
+[INFO] --- liberty-maven-plugin:2.1.1:install-apps (install-apps) @ demo2 ---
+[INFO] CWWKM2102I: Using pre-installed assembly : /opt/ibm/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /root/app/mc-target/liberty/wlp/usr/servers/defaultServer.
+[INFO] Copying 1 file to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer
+[INFO] Copying 1 file to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer
+[INFO] Copying 1 file to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer
+[INFO] CWWKM2144I: Update server configuration file server.xml from /shared-workspace/demo2/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file jvm.options from /shared-workspace/demo2/src/main/liberty/config/jvm.options.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from inlined configuration.
+[INFO] CWWKM2144I: Update server configuration file server.env from /shared-workspace/demo2/src/main/liberty/config/server.env.
+[INFO] CWWKM2160I: Installing application demo2-1.0-SNAPSHOT.war.xml.
+[INFO] 
+[INFO] --- liberty-maven-plugin:2.1.1:package-server (package-server) @ demo2 ---
+[INFO] CWWKM2102I: Using pre-installed assembly : /opt/ibm/wlp.
+[INFO] CWWKM2102I: Using serverName : defaultServer.
+[INFO] CWWKM2102I: Using serverDirectory : /root/app/mc-target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2107I: Installation type is pre-existing; skipping installation.
+[INFO] CWWKM2134I: Packaging server defaultServer.
+[INFO] Copying 1 file to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer
+[INFO] Copying 1 file to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer
+[INFO] Copying 1 file to /root/app/mc-target/liberty/wlp/usr/servers/defaultServer
+[INFO] CWWKM2144I: Update server configuration file server.xml from /shared-workspace/demo2/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file jvm.options from /shared-workspace/demo2/src/main/liberty/config/jvm.options.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from inlined configuration.
+[INFO] CWWKM2144I: Update server configuration file server.env from /shared-workspace/demo2/src/main/liberty/config/server.env.
+[INFO] CWWKM2136I: Package file location is /shared-workspace/demo2/mc-target/demo2-1.0-SNAPSHOT.zip.
+[INFO] CWWKM2001I: server.config.dir is /shared-workspace/demo2/mc-target/liberty/wlp/usr/servers/defaultServer.
+[INFO] CWWKM2001I: server.output.dir is /shared-workspace/demo2/target/wlp-package/defaultServer.
+[INFO] CWWKM2001I: Invoke command is [/opt/ibm/wlp/bin/server, package, defaultServer, --archive=/root/app/mc-target/demo2-1.0-SNAPSHOT.zip, --include=usr].
+[INFO] JVMSHRC287E Persistent cache cannot be located on a networked file system. Either select "nonpersistent" or a different cacheDir.
+[INFO] JVMSHRC686I Failed to startup shared class cache. Continue without using it as -Xshareclasses:nonfatal is specified
+[INFO] Packaging server defaultServer.
+[INFO] Server defaultServer package complete in /root/app/mc-target/demo2-1.0-SNAPSHOT.zip.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.809 s
+[INFO] Finished at: 2018-06-26T17:52:53Z
+[INFO] ------------------------------------------------------------------------

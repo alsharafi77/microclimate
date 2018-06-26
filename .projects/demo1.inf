@@ -1,0 +1,1 @@
+{"projectID":"demo1","name":"demo1","language":"nodejs","services":[],"host":"169.61.62.89","ports":{"exposedPort":"31969","internalPort":"3000"},"containerRunning":true,"applicationRunning":false,"workspace":"/microclimate-workspace/","locOnDisk":"/microclimate-workspace/demo1","buildLogPath":null,"state":"open","podName":"demo1-deployment-7d57d47c4d-nt2wl"}
